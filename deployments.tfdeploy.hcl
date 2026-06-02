@@ -32,7 +32,7 @@ deployment_group "production_grp" {
 }
 
 
-deployment "development" {
+deployment "development_dpl" {
   inputs = {
     regions        = ["us-east-1"]
     role_arn       = "<YOUR_ROLE_ARN>"
