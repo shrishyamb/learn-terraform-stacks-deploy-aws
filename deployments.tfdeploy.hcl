@@ -42,6 +42,7 @@ deployment "development" {
       Environment = "dev"
     }
   }
+  deployment_group = "deployment_group.development_grp"
 }
 
 deployment "production" {
@@ -54,4 +55,5 @@ deployment "production" {
       Environment = "prod"
     }
   }
+  deployment_group = "deployment_group.production_grp"
 }
